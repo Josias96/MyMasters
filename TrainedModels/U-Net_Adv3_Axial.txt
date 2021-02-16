@@ -1,0 +1,9 @@
+Parameters for U-Net_Adv3_Axial:
+
+ScanType: CT
+n_Scans: 60
+Orientation: Axial
+Optimizer: SGD, Momentum = 0.9, Nestrov = True
+Loss: focal_tversky_loss
+batch_size: 5
+epochs: 40

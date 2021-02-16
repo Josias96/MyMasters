@@ -1,0 +1,9 @@
+Parameters for U-Net_7_2_Axial:
+
+ScanType: CT
+n_Scans: 72
+Orientation: Axial
+Optimizer: Adam
+Loss: Dice-Coeff
+batch_size: 8
+epochs: 40

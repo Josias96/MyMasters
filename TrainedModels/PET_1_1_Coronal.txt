@@ -1,0 +1,9 @@
+Parameters for PET_1_1_Coronal:
+
+ScanType: PET
+n_Scans: 14
+Orientation: Coronal
+Optimizer: Adam
+Loss: tversky_loss
+batch_size: 8
+epochs: 20

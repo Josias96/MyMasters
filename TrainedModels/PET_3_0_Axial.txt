@@ -1,0 +1,9 @@
+Parameters for PET_3_0_Axial:
+
+ScanType: PET
+n_Scans: 10
+Orientation: Axial
+Optimizer: Adam
+Loss: focal_tversky_loss
+batch_size: 8
+epochs: 5

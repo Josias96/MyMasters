@@ -1,0 +1,9 @@
+Parameters for PET_2_1_Axial:
+
+ScanType: PET
+n_Scans: 10
+Orientation: Axial
+Optimizer: Adam
+Loss: dice_coef_loss
+batch_size: 8
+epochs: 5

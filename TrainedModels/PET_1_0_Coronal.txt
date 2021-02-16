@@ -1,0 +1,9 @@
+Parameters for PET_1_0_Coronal:
+
+ScanType: PET
+n_Scans: 14
+Orientation: Coronal
+Optimizer: Adam
+Loss: Dice_Loss
+batch_size: 8
+epochs: 40

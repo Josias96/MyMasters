@@ -1,0 +1,9 @@
+Parameters for U-Net_E_Axial:
+
+ScanType: CT
+n_Scans: 72
+Orientation: Axial
+Optimizer: Adam
+Loss: focal_tversky_loss
+batch_size: 8
+epochs: 14

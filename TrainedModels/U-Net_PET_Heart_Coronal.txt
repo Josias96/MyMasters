@@ -1,0 +1,9 @@
+Parameters for U-Net_PET_Heart_Coronal:
+
+ScanType: PET
+n_Scans: 15
+Orientation: Coronal
+Optimizer: Adam
+Loss: Dice_Loss
+batch_size: 8
+epochs: 25
